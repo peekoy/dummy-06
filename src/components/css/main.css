@@ -36,9 +36,20 @@
   background-color: white;
   border-radius: 8px;
 }
-.main-container .content-01 {
+.main-container .container-00 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
   padding-top: 16px;
   padding-left: 16px;
+}
+.main-container .container-00 .check-box {
+  border: 1px solid #808080;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.main-container .container-00 .content-01 {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -73,10 +84,13 @@
 .container-01 {
   width: 489px;
   height: 68px;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   border: 1px solid #BFBFBF;
   border-radius: 8px;
   background-color: #FFFFFF;
+  gap: 16px;
 }
 .container-01 .sub-container {
   padding: 12px;
@@ -112,11 +126,12 @@
   gap: 8px;
 }
 .container-02 .sub-container {
-  padding: 12px;
+  padding: 0px;
 }
 .container-02 .sub-container .border {
-  border-left: 1px solid black;
+  border-left: 1px solid #BFBFBF;
   padding-left: 16px;
+  padding-right: 12px;
 }
 .container-02 .sub-container .content-02 {
   font-style: normal;
@@ -130,6 +145,33 @@
   font-size: 16px;
   line-height: 20px;
   color: black;
+}
+
+.container-03 {
+  border-radius: 8px;
+  background-color: #047F54;
+  width: 117px;
+  height: 68px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.icon {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 12px;
+}
+
+.icon-01 {
+  width: 20px;
+  height: 20px;
 }
 
 * {
