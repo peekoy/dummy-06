@@ -1,6 +1,6 @@
 .navbar {
   background-color: rgb(248, 250, 252);
-  padding-left: 24px;
+  padding: 0 24px;
   margin: auto;
   height: 72px;
   display: flex;
@@ -126,12 +126,19 @@
   gap: 8px;
 }
 .container-02 .sub-container {
-  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
 }
 .container-02 .sub-container .border {
   border-left: 1px solid #BFBFBF;
   padding-left: 16px;
   padding-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
 }
 .container-02 .sub-container .content-02 {
   font-style: normal;

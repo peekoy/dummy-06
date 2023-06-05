@@ -96,11 +96,18 @@
   background-color: #FFFFFF;
   gap: 8px;
   .sub-container {
-    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
     .border {
       border-left: 1px solid #BFBFBF;
       padding-left: 16px;
       padding-right: 12px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 8px;
     }
     .content-02 {
       font-style: normal;
