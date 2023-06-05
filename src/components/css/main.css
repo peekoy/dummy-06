@@ -114,9 +114,22 @@
 .container-02 .sub-container {
   padding: 12px;
 }
-.container-02 .content {
+.container-02 .sub-container .border {
   border-left: 1px solid black;
   padding-left: 16px;
+}
+.container-02 .sub-container .content-02 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+.container-02 .sub-container .content-03 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
 }
 
 * {
