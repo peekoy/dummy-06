@@ -10,7 +10,7 @@ const Content = () => {
   return (
     <div className="main-container-02">
         <div className="header">
-          <h3>Today deals</h3>
+          <h3>Today Deals</h3>
         </div>
         <div className="paragraph">
           <p>Get the cheapest car rental price rate from us!</p>
