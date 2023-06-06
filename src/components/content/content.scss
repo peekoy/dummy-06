@@ -3,9 +3,14 @@
 .main-container-02 { 
   padding: 64px 135px 154px 135px;
   align-items: center;
-  .flex-container-02 {
+  .gap {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 104px;
+    .flex-container-02 {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
 

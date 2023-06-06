@@ -238,7 +238,12 @@
   padding: 64px 135px 154px 135px;
   align-items: center;
 }
-.main-container-02 .flex-container-02 {
+.main-container-02 .gap {
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+}
+.main-container-02 .gap .flex-container-02 {
   display: flex;
   justify-content: space-between;
 }
