@@ -1,19 +1,28 @@
 @use "../cards/card-01";
 
-.main-container-02 {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: flex-start;
-  // width: 1170px;
-  // height: 1182px;
-  // border: 1px solid black;
+.main-container-02 { 
   padding: 64px 135px 154px 135px;
   align-items: center;
-  // gap: 32px;
-
   .flex-container-02 {
     display: flex;
-    // flex-direction: column;
     justify-content: space-between;
   }
+}
+
+.header {
+  padding-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+
+.paragraph {
+  padding-bottom: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #404040;
 }

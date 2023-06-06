@@ -6,7 +6,6 @@
   .box {
     display: flex;
     justify-content: flex-end;
-    
     .deals {
       border-radius: 0 8px;
       background-color: #B41717;
@@ -16,19 +15,40 @@
     }
   }
   .content {
-    // border: 1px solid black;
-    border-top: none;
     padding: 24px;
     text-align: left;
     background-color: white;
     border-radius: 8px;
+    .container-04 {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .container-05 {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
 
+    }
+    .container-06 {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      .price-01 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #808080;
+        text-decoration: line-through;
+      }
+      .price-02 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B41717;
+      }
+    }
   }
-  // .deals {
-  //   text-align: right;
-  //   border: 1px solid black;
-  //   padding: 10px;
-  // }
-  // display: flex;
-  // flex-direction: column;
 }
