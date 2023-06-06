@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <h1>What's on your mind?</h1>
-      <div className="main-container">
+      <div className="main-container-01">
         <div className="container-00">
           <div className="check-box">
           </div>
