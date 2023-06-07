@@ -1,5 +1,6 @@
 @use "../cards/card-01";
 @use "../cards/card-02";
+@use "../cards/card-03";
 
 .main-container-02 { 
   padding: 64px 135px 154px 135px;
@@ -31,4 +32,15 @@
   font-size: 16px;
   line-height: 20px;
   color: #404040;
+}
+
+.header-01 {
+  padding-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
 }
