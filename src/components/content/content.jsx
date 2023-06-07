@@ -1,10 +1,14 @@
 import React from "react";
 import Card_01 from "../cards/card-01";
+import Card_02 from "../cards/card-02";
 import Sigra from "../../assets/sigra.png";
 import HRV from "../../assets/HR-V.png";
 import Alphard from "../../assets/alphard.png";
-import Transmission from "../../assets/transmission.png"
-import Seat from "../../assets/seat.png" 
+import Transmission from "../../assets/transmission.png";
+import Seat from "../../assets/seat.png";
+import Headset from "../../assets/headset.png";
+import Percent from "../../assets/percent.png";
+import World from "../../assets/world.png";
 
 const Content = () => {
   return (
@@ -28,8 +32,14 @@ const Content = () => {
         <div className="paragraph">
           <p>We offer the best service for your journey!</p>
         </div>
+        <div className="gap">
+          <div className="flex-container-02">
+            <Card_02 img={World} content1="60,000+ Locations" content2="Over 60.000+ pick-up locations around the world" />
+            <Card_02 img={Percent} content1="Low Rental Rates" content2="Find great value rental rates and exclusive specials" />
+            <Card_02 img={Headset} content1="24/7 Customer Service" content2="Dedicated phone and email customer service" />
+          </div>
+        </div>
     </div>
-
   )
 }
 
