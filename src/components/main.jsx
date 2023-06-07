@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Navbar from './navbar/navbar'
 import Banner from './banner/banner'
 import Content from './content/content'
+import Footer from './footer/footer'
 import './css/main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Banner />
     <Content />
+    <Footer />
   </React.StrictMode>,
 )
