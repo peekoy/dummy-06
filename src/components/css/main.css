@@ -27,6 +27,9 @@
   margin: 0 20px;
 }
 .navbar ul li a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19.5px;
   text-decoration: none;
   text-transform: uppercase;
 }
